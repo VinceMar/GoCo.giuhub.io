@@ -24,7 +24,7 @@ body {
 	width: 150px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	transition: 10s;
+	transition: .5s;
 }
 
 .left-sidebar img:hover {
