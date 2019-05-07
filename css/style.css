@@ -13,25 +13,46 @@ body {
   float: left;
   background: #2c3e50;
 	height: 100vh;
-	padding: 15px;
-	width: 15%;
+	width: 250px;
 	text-align: center;
-}
-
-.left-sidebar h1 {
-	color: white;
-	font-family: sans-serif;
 }
 
 .left-sidebar img {
   border-radius: 50%;
-	width: 50%;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	width: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transition: .5s;
+}
+
+.left-sidebar img:hover {
+	width: 200px;
 }
 
 .left-sidebar .sidebar-list {
-	margin-top: 30px;
+	padding: 30px;
+	position: relative;
+}
+
+.left-sidebar .sidebar-list a:before {
+	content: "";
+	position: absolute;
+	width: 6px;
+	height: 100%;
+	background-color: #27ae60;
+	left: 0;
+	top: 0;
+	transition: 0.3s;
+	opacity: 0;
+}
+
+.left-sidebar .sidebar-list a:hover:before {
+	opacity: .8;
+}
+
+.left-sidebar .sidebar-list:hover {
+	background: #34495e;
+	
 }
 
 .left-sidebar a {
