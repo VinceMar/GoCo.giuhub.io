@@ -1,0 +1,153 @@
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+img,
+.side-bar .list-group-item ,
+.sidebar-card
+{
+	border-radius: 5px;
+}
+
+.navbar-brand {
+	background-image: url(../img/logo.jpg);
+	width: 50px;
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.side-bar .list-group-item {
+	border: 0;
+	margin-bottom: 5px;
+}
+
+.side-bar .list-group-item.active {
+	background-color: #ea0c3d;
+}
+
+.news-list-item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.news-list-item:first-child {
+	padding-top: 0;
+}
+
+.news-list-item .title {
+	display: block;
+	color: #444;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	line-height: 1.5;
+}
+
+.news-list-item .info {
+	color: #888;
+}
+
+.avatar {
+	display: inline-block;
+}
+
+.avatar img {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+
+.news-list-item .title:hover {
+	color: #337ab7;
+}
+
+.sidebar-card {
+	margin-top: 15px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.sidebar-card.flag {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.sidebar-card .text-lg {
+	font-size: 150%;
+}
+
+.sidebar-card .card-title {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.sidebar-card .card-title,
+.sidebar-card .card-body .list .item{
+	padding: 10px 15px;
+}
+
+.sidebar-card .card-body .list .item:hover{
+	background: rgba(0,0,0,.05);
+}
+
+.card-body .list .item .title {
+	padding-bottom: 5px;
+}
+
+.card-body .list .item .desc {
+	color: #999;
+}
+
+.news-title {
+	line-height: 1.5;
+}
+
+.news-status {
+	color: #999;
+}
+
+.news-status .label {
+	opacity: 0.8;
+}
+
+.news-content {
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.no-padding-h {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.footer {
+	margin-top: 20px;
+	padding: 20px 0;
+	text-align: center;
+	color: #999;
+}
+
+.container-small {
+	max-width: 500px;
+}
+
+.btn-primary {
+	background-color: #ea0c3d;
+	border-color: black;
+}
+
+.btn-primary:hover {
+	background-color: #AD0000;
+	border-color: black;
+}
