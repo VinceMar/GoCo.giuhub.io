@@ -68,6 +68,19 @@ body {
 	color: #7f8c8d;
 }
 
+/* 选中状态 */
+#current-page {
+	background: #34495e;
+	cursor: default;
+}
+#current-page a:before {
+	opacity: .8;
+}
+#current-page a {
+	color: #7f8c8d;
+	cursor: default;
+}
+
 /* 右侧主内容 */
 .container {
 	color: white;
