@@ -9,6 +9,7 @@ body {
   background: url(../img/bg.jpg) no-repeat;
 }
 
+/* 侧栏布局 */
 .left-sidebar {
   float: left;
   background: #2c3e50;
@@ -17,6 +18,7 @@ body {
 	text-align: center;
 }
 
+/* 侧栏头像 */
 .left-sidebar img {
   border-radius: 50%;
 	width: 150px;
@@ -26,9 +28,10 @@ body {
 }
 
 .left-sidebar img:hover {
-	width: 200px;
+	width: 180px;
 }
 
+/* 侧栏栏目 */
 .left-sidebar .sidebar-list {
 	padding: 30px;
 	position: relative;
@@ -52,7 +55,6 @@ body {
 
 .left-sidebar .sidebar-list:hover {
 	background: #34495e;
-	
 }
 
 .left-sidebar a {
@@ -66,10 +68,12 @@ body {
 	color: #7f8c8d;
 }
 
+/* 右侧主内容 */
 .container {
 	color: white;
 }
 
+/* 页脚 */
 footer {
 	background: white;
   clear: both;
