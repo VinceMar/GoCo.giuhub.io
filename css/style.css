@@ -24,11 +24,11 @@ body {
 	width: 150px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	transition: .5s;
+	transition: 1s;
 }
 
 .left-sidebar img:hover {
-	width: 180px;
+	transform: rotate(360deg);
 }
 
 /* 侧栏栏目 */
