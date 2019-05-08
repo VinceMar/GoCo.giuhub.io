@@ -6,20 +6,20 @@
 }
 
 body {
-	background: url(../img/bg.jpg) no-repeat;
+	background: url(../img/bg.jpg) no-repeat ;
+	background-attachment: fixed;
 }
 
 /* 侧栏布局 */
 .left-sidebar {
-	float: left;
-	background: #2c3e50;
+	background: #2f4d6b;
 	height: 100vh;
-	width: 250px;
+	width: 100%;
 	text-align: center;
 }
 
-/* 侧栏头像 */
-.left-sidebar img {
+/* 侧栏介绍信息 */
+.left-sidebar .header-img {
 	border-radius: 50%;
 	width: 150px;
 	margin-top: 50px;
@@ -27,68 +27,53 @@ body {
 	transition: 1s;
 }
 
-.left-sidebar img:hover {
+.left-sidebar .header-img:hover {
 	transform: rotate(360deg);
 }
 
-/* 侧栏栏目 */
-.left-sidebar .sidebar-list {
-	padding: 30px;
-	position: relative;
+.left-sidebar .header-introduce,
+.left-sidebar .header-name {
+	color: white;
+	font-family:"微软雅黑";
+	font-weight: 200;
 }
 
-.left-sidebar .sidebar-list a:before {
-	content: "";
-	position: absolute;
-	width: 6px;
-	height: 100%;
-	background-color: #27ae60;
-	left: 0;
-	top: 0;
-	transition: 0.3s;
-	opacity: 0;
+.left-sidebar .header-introduce {
+	margin-bottom: 50px;
 }
 
-.left-sidebar .sidebar-list a:hover:before {
-	opacity: .8;
+.left-sidebar .list-item {
+	margin-top: 20px;
+	padding: 5px;
 }
 
-.left-sidebar .sidebar-list:hover {
-	background: #34495e;
-}
-
-.left-sidebar a {
+.left-sidebar .list-item a {
 	color: white;
 	font-size: 25px;
-	font-family: "微软雅黑";
-	transition: .5s;
-}
-
-.left-sidebar a:hover {
-	color: #7f8c8d;
-}
-
-/* 选中状态 */
-#current-page {
-	background: #34495e;
-	cursor: default;
-}
-#current-page a:before {
-	opacity: .8;
-}
-#current-page a {
-	color: #7f8c8d;
-	cursor: default;
+	font-family:"微软雅黑";
 }
 
 /* 右侧主内容 */
 .container {
-	color: white;
+	background: rgba(190,190,190,.4);
+}
+
+.main {
+	display: inline-block;
+	color: black;
+	padding: 20px;
+}
+
+.artical {
+	background: rgba(245,245,245,.8);
+	padding: 8px 20px;
+	margin-top: 20px;
+	font-family: "lucida grande";
+	border-radius: 8px;
 }
 
 /* 页脚 */
 footer {
-	position: fixed;
 	background: white;
 	clear: both;
 	bottom: 0;
