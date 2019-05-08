@@ -157,3 +157,20 @@ body {
   position: absolute;
   z-index: 9999;
 }
+
+/* 返回顶端按钮 */
+#top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #2f4d6b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  display: none;
+}
