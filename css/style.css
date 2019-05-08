@@ -5,6 +5,10 @@
 	list-style: none;
 }
 
+html,body {
+	height: 100%;
+}
+
 body {
 	background: url(../img/bg.jpg) no-repeat ;
 	background-attachment: fixed;
@@ -13,9 +17,13 @@ body {
 /* 侧栏布局 */
 .left-sidebar {
 	background: #2f4d6b;
-	height: 100vh;
 	width: 100%;
+	height: 100%;
 	text-align: center;
+	
+	overflow: hidden;
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
 }
 
 /* 侧栏介绍信息 */
@@ -42,6 +50,7 @@ body {
 	margin-bottom: 50px;
 }
 
+/* 侧栏项目 */
 .left-sidebar .list-item {
 	margin-top: 20px;
 	padding: 5px;
@@ -73,11 +82,10 @@ body {
 }
 
 /* 页脚 */
-footer {
-	background: white;
-	clear: both;
-	bottom: 0;
-	left: 0;
-	right: 0;
+.footer {
+	background: rgba(245,245,245,.8);
+	width: 100%;
 	height: 20px;
+	text-align: center;
+	font-family: "微软雅黑";
 }
