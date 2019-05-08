@@ -12,6 +12,11 @@ body {
 	background-attachment: fixed;
 }
 
+.container {
+	background: rgba(190,190,190,.4);
+	z-index: 1 ;
+}
+
 /* 侧栏布局 */
 .left-sidebar {
 	background: #2f4d6b;
@@ -81,22 +86,22 @@ body {
 }
 
 /* 右侧主内容 */
-.container {
-	background: rgba(190,190,190,.4);
-	z-index: 1 ;
-}
-
-.main {
-	display: inline-block;
-	color: black;
-	padding: 20px;
-}
-
 .artical {
 	background: rgba(245,245,245,.8);
 	padding: 8px 20px;
 	margin-top: 20px;
-	font-family: "lucida grande";
+	margin-bottom: 20px;
+	font-family: "微软雅黑";
+	border-radius: 8px;
+}
+
+/* 主内容右侧栏 */
+.sidebar-right-item {
+	background: rgba(245,245,245,.8);
+	padding: 8px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "微软雅黑";
 	border-radius: 8px;
 }
 
