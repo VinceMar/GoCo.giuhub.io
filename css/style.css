@@ -1,3 +1,4 @@
+/* ------全局设置------ */
 html, body {
   height: 100%;
   text-decoration: none;
@@ -13,19 +14,22 @@ body {
 .container {
   background: rgba(190, 190, 190, .4);
   z-index: 1;
+  max-width: 100%;
 }
+/* ------全局设置END------ */
 
+
+/* ------左侧栏------ */
 /* 侧栏布局 */
 .left-sidebar {
   background: #2f4d6b;
-  width: 100%;
   text-align: center;
   /* overflow: hidden;
   padding-bottom: 9999px;
   margin-bottom: -9999px; */
 }
 
-/* 侧栏介绍信息 */
+/* 侧栏头像 */
 .left-sidebar .header-img {
   border-radius: 50%;
   width: 150px;
@@ -38,6 +42,7 @@ body {
   transform: rotate(360deg);
 }
 
+/* 侧栏简介 */
 .left-sidebar .header-introduce,
 .left-sidebar .header-name {
   color: white;
@@ -68,12 +73,12 @@ body {
   font-family: "微软雅黑";
 }
 
-.left-sidebar .list-item a:hover {
-  text-decoration: none;
-}
-
 .left-sidebar .active {
   background: #2c3e50;
+}
+
+.left-sidebar .list-item a:hover {
+  text-decoration: none;
 }
 
 .left-sidebar .list-item:hover {
@@ -81,7 +86,11 @@ body {
   cursor: pointer;
 }
 
-/* 右侧主内容 */
+/* ------左侧栏END------ */
+
+
+/* ------右侧内容------ */
+/* 文章 */
 .artical {
   background: rgba(245, 245, 245, .8);
   padding: 20px 20px;
@@ -175,7 +184,9 @@ body {
   margin-top: 5px;
 }
 
-/* 页脚 */
+/* ------右侧内容END------ */
+
+/* ------页脚------ */
 .footer {
   background: rgba(245, 245, 245, .8);
   width: 100%;
@@ -185,6 +196,8 @@ body {
   position: absolute;
   z-index: 9999;
 }
+/* ------页脚END------ */
+
 
 /* 返回顶端按钮 */
 #top {
