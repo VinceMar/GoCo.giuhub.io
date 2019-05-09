@@ -1,14 +1,12 @@
-* {
+html, body {
+  height: 100%;
   text-decoration: none;
   list-style: none;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
   background: url(../img/bg-min.jpg) no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -21,7 +19,6 @@ body {
 .left-sidebar {
   background: #2f4d6b;
   width: 100%;
-  /* height: 1000px; */
   text-align: center;
   /* overflow: hidden;
   padding-bottom: 9999px;
