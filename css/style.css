@@ -32,7 +32,7 @@ body {
 /* 侧栏头像 */
 .left-sidebar .header-img {
   border-radius: 50%;
-  width: 150px;
+  width: 140px;
   margin-top: 50px;
   margin-bottom: 50px;
   transition: 1s;
@@ -136,6 +136,16 @@ body {
   border-radius: 8px;
 }
 
+.sidebar-right-item .my-photo {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.sidebar-right-item ul {
+  padding:0 0 0 10px;
+}
+
 .sidebar-right-item .title {
   font-size: 25px;
   margin: 15px 0;
@@ -168,6 +178,8 @@ body {
   justify-content: center;
   transition: 0.4s;
   line-height: 40px;
+  background: none;
+  border: none;
 }
 
 .search-btn:hover {
